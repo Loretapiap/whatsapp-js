@@ -1,6 +1,6 @@
 /*Escritura en el chat*/
 $(document).ready(function(){
-    $('#mainInput').keypress(function(e){
+    $('.emoji-wysiwyg-editor').keypress(function(e){
         if(e.which == 13){
             var value = $('#mainInput').val()
             var time = new Date(),
