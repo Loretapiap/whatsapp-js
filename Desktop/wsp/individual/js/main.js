@@ -1,8 +1,10 @@
 /*Escritura en el chat*/
+
+/****Ahora que borre todos los emojis no me funciona el enviar ): lo siento ****/
 $(document).ready(function(){
-    $('.emoji-wysiwyg-editor').keypress(function(e){
+    $('.w-write-message-field').keypress(function(e){
         if(e.which == 13){
-            var value = $('#mainInput').val()
+            var value = $('.w-write-message-field').val()
             var time = new Date(),
             hours = time.getHours(),
             minutes = time.getMinutes()
