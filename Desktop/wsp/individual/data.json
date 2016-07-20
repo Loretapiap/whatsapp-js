@@ -2,9 +2,14 @@
     {
         "nombre": "Laboratoria Perú",
         "imagen": "logocodeacademy.png",
-  		"mensajes":[
+  		"mensajes":[            
+            {"contenido":"Deberiamos hacer algo para las vacaciones!",
+             "fecha":"14:23"},
+            {"contenido":"Vamonos de viaje! :D",
+             "fecha":"14:23"},
   					{"contenido":"dale, dale",
-  					 "fecha":"14:25"}],
+  					 "fecha":"14:25"}
+             ],
         "tipo": "grupo",
         "integrantes":["Aldo", "Ana María", "Gian","Mariana", "Papu"]
     },
@@ -12,6 +17,8 @@
         "nombre": "Raymi Saldomando",
         "imagen": "raymi.jpg",
         "mensajes":[
+            {"contenido":"Llegaste tarde!, pero no te preocupes..",
+             "fecha":"11:25"},
   					{"contenido":"La clase va bien!",
   					 "fecha":"11:25"}],
         "tipo":"persona",
@@ -21,6 +28,8 @@
         "nombre": "Mariana Costa",
         "imagen": "mariana.jpg",
         "mensajes":[
+            {"contenido":"Por que no viniste?",
+             "fecha":"11:24"},
   					{"contenido":"El panel de speakers está buenazo",
   					 "fecha":"09:25"}],
         "tipo":"persona",
@@ -30,7 +39,11 @@
         "nombre": "Ana María Martínez Franklin",
         "imagen": "anamaria.jpg",
         "mensajes":[
-  					{"contenido":"Pues dale Chamo!",
+            {"contenido":"De verdad quieres eso?",
+             "fecha":"11:25"},
+            {"contenido":"No te dire nada, o sea",
+             "fecha":"11:26"},
+  					{"contenido":"Como quieras...",
   					 "fecha":"Ayer"}],
         "tipo":"persona",
         "integrantes": "Ana"
@@ -90,21 +103,21 @@
         "integrantes": "José"
     },
       {
-        "nombre": "Karen Valdivia",
-        "imagen": "karen.jpg",
+        "nombre": "Lorena Tapia",
+        "imagen": "lore.jpg",
         "mensajes":[
   					{"contenido":"Estoy algo perdida en todo ...",
   					 "fecha":"29/05/16"}],
         "tipo":"persona",
-        "integrantes": "Karen"
+        "integrantes": "Lorena"
     },
       {
-        "nombre": "Paty Arakawa",
-        "imagen": "paty.jpg",
+        "nombre": "Gloria Jara",
+        "imagen": "Gloria.jpg",
         "mensajes":[
   					{"contenido":"Choco choco la la ! (8) ",
   					 "fecha":"28/05/16"}],
         "tipo":"persona",
-        "integrantes": "Paty"
+        "integrantes": "Gloria"
     }
 ]

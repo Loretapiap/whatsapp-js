@@ -42,7 +42,7 @@ ul {
 }
 
 .w-contacts {
-	min-height: 600px;
+	max-height: 100vh;
 }
 
 aside.w-contacts header, 
@@ -100,15 +100,7 @@ aside.w-contacts header {
     position: relative;
 }
 
-.w-search-contacts {
-	padding: 12px 0 7px 59px;
-	width: 85%;
-	border: 1px solid #ededed;
-	border-radius: 5px;
-	font-weight: 400;
-	color: #4b4b4b;
-	font-family: 'Roboto',sans-serif;
-}
+
 
 .icon-search:before {
 	position: absolute;
@@ -366,3 +358,88 @@ aside.w-contacts header {
   background-color: rgba(0,0,0,.2);
 }
 
+
+/*Emojis*/
+
+.emoji {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin-bottom: -0.25em;
+}
+
+
+/*Search*/
+
+.w-search-contacts {
+	padding: 12px 0 7px 59px;
+	width: 85%;
+	border: 1px solid #ededed;
+	border-radius: 5px;
+	font-weight: 400;
+	color: #4b4b4b;
+	font-family: 'Roboto',sans-serif;
+}
+
+.panel-list-message-contact {
+	cursor: pointer;
+	display: flex;
+	border-top: 1px solid rgba(210,210,210,0.4);
+}
+.panel-list-message-contact .profile-img {
+	padding: 13px 10px 10px 10px;
+}
+.panel-list-message-contact .profile-img img {
+	height: 49px;
+	width: 49px;
+}
+
+.panel-list-message-contact:hover{
+	background-color: #EEEEEE;
+}
+
+.message-text {
+	display: flex;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 18px 10px 0px 0px;
+	width: 100%;
+}
+.message-text .message-text-detail {
+	align-items: flex-start;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.message-text .message-text-detail .name-contact {
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 14px;
+}
+.message-text .message-text-detail .message-hour {
+	color: #C8C8C8;
+	font-size: 14px;
+}
+.message-text .message-chat {
+	color: #454545;
+	font-size: 14px;
+	align-items: flex-start;
+	display: flex;
+	position: relative;
+	top: -6px;
+}
+
+.panel-contact-chat {
+	height: 470px;
+	overflow: auto;
+}
+
+.avatar img, .profile-img img {
+	border-radius: 50%;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+}
