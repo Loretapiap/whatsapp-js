@@ -478,7 +478,7 @@ ul.dropdown li.hover a              { color: black; }
 /* 
 	LEVEL TWO
 */
-ul.dropdown ul 						{ width: 220px; visibility: hidden; position: absolute; bottom: 100%; left: 0; }
+ul.dropdown ul 						{ width: 50px; visibility: hidden; position: absolute; bottom: 100%; left: 0; }
 ul.dropdown ul li 					{ font-weight: normal; background: #f6f6f6; color: #000; 
 									  border-bottom: 1px solid #ccc; float: none; }
 									  
@@ -490,3 +490,5 @@ ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block
 */
 ul.dropdown ul ul 					{ left: 100%; bottom: 100%; }
 ul.dropdown li:hover > ul 			{ visibility: visible; }
+
+ul.dropdown img {width: 40%; margin-left: 15%;}

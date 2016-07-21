@@ -96,6 +96,8 @@ $(window).on('load',function(){
 
 /*Cambiar de contacto*/
 
+/*
+
 $('.message-list').click(function(){
 
 
@@ -117,7 +119,7 @@ $('.w-message-list').click(function(){
 })
 
 
-/*Emojis*/
+/*Emojis*/ /*
 
 $(function(){
 
@@ -141,4 +143,5 @@ $(function(){
 
     $("ul.dropdown li").hoverIntent(config);
     
-    $("ul.dropdown li ul li:has(ul)").
+    $("ul.dropdown li ul li:has(ul)").hoverIntent(config);
+}); */
